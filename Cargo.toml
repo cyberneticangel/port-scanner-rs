@@ -1,0 +1,8 @@
+[package]
+name = "port-scanner-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = {version = "*", features = ["derive"]}
+tokio = "1.44.1"
